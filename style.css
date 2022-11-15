@@ -1,0 +1,58 @@
+@font-face {
+    font-family: pubg;
+    src: url(./Dancing_Script/static/DancingScript-Regular.ttf);
+}
+@font-face {
+    font-family: laylo;
+    src: url(./Freehand/Freehand-Regular.ttf);
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+h1{
+    color: red;
+    font-size: 5vw;
+    font-family: pubg;
+}
+.text{
+    color: blue;
+    font-size: 28px;
+    font-weight: 100;
+    font-style: italic;
+
+    /* text-decoration: dotted underline; */
+    word-spacing: 30px;
+    letter-spacing: 10px;
+    line-height: 2;
+}
+/* 1rem = 16px */
+/* 1em = 16px */
+.lorem{
+    font-size: 5rem;
+}
+.container{
+    width: 800px;
+    /* vh = viuwport height */
+    height: 80vh;
+    border: 1px solid red;
+    margin: 20px auto;
+}
+.box{
+    /* % = parentdan meros olish */
+    width: 50%;
+    height: 50px;
+    background: blue;
+}
+.box2{
+    /* vw = ekrandan meros olish */
+    width: 50vw;
+    height: 50px;
+    background: green;
+}
+.font{
+    font-size: 2rem;
+    font-family: laylo;
+}
